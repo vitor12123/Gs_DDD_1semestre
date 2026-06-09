@@ -1,7 +1,8 @@
 package destino;
 
 public class TempoDestino {
-    static double distanciaKm;
+    private static double distanciaKm;
+    private static String planetaEscolhido;
 
     public double destino(String destino) {
         switch (destino.toLowerCase()) {
@@ -32,7 +33,12 @@ public class TempoDestino {
             default:
                 throw new IllegalArgumentException("Destino não encontrado esta fora do sistema solar!");
         }
+        planetaEscolhido = destino.toLowerCase();
         return distanciaKm;
+    }
+
+    public static String getPlanetaEscolhido() {
+        return planetaEscolhido;
     }
 
 }
