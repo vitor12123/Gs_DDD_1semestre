@@ -1,7 +1,5 @@
 # Gs_DDD_1semestre
 
-# Gs_DDD_1semestre
-
 ## 🚀 Simulador de Viabilidade de Missões Espaciais
 
 ### 📖 Sobre o Projeto
